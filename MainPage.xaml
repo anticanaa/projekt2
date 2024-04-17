@@ -7,7 +7,7 @@
         <Grid>
             <Label Text="Home" HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand" FontSize="Small" TextColor="White"
-                FontAttributes="Bold" BackgroundColor="Purple" />
+                FontAttributes="Bold" />
         </Grid>
     </Shell.TitleView>
     <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*">
