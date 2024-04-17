@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt2.MainPage">
+
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Home" HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" FontSize="Small" TextColor="White"
+                FontAttributes="Bold" BackgroundColor="Purple" />
+        </Grid>
+    </Shell.TitleView>
+    <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*">
+        <Button Text="Button"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="Check"/>
+        <Button Grid.Row="0" Grid.Column="2" Text="Button"/>
+        <Button Grid.Row="1" Grid.Column="1" BackgroundColor="White" Text="Check" TextColor="Black"/>
+        <Button Grid.Row="2" Grid.Column="0" Text="Button"/>
+        <Button Grid.Row="2" Grid.Column="2" Text="Button"/>
+    </Grid>
+
+</ContentPage>
